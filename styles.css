@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 16px;
+}
+
+.head.con {
+    display: flex;
+    align-items: center;
+    width: 635px;
+    justify-content: space-between;
+}
+
+.header .links {
+    opacity: 75%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+    gap: 32px;
+}
+
+.hero.text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 8px;
+}
+
+.hero.text.main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero.text.sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    opacity: 75%;
+}
+
+.hero.text.button {
+    display: flex;
+    align-items: flex-start;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 24px;
+}
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.info.head {
+    font: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    flex: 0;
+}
+
+.info.text {
+    display: flex;
+    align-items: center;
+    flex: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.box .bx {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.box .text {
+    font-size: 12px;
+    color: gray;
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.quote .container.column .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 500px;
+}
+
+div.author {
+    width: 500px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.call .container {
+    background-color: #3882F6;
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+.call .container .text .main {
+    font-weight: bold;
+}
+
+.call .container .text .sub {
+    font-size: 12px;
+    opacity: 75%;
+}
+
+.call .container .button button {
+    border: 2px solid white;
+}
